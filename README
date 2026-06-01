@@ -1,38 +1,66 @@
-# 360-Degree-Customer-Intelligence
+# 📊 360-Degree Customer Intelligence Project
 
-360-Degree Customer Intelligence Project
-Python Libraries License
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Framework](https://img.shields.io/badge/UI-ipywidgets-orange.svg)](https://ipywidgets.readthedocs.io/)
 
-🚀 Project Overview
-This project develops a comprehensive, 4-in-1 customer intelligence solution using a single e-commerce dataset. The goal is to demonstrate a wide range of data science techniques to solve interconnected, real-world business problems, moving from understanding customers to predicting their behavior and taking action.
+A comprehensive, 4-in-1 customer intelligence solution built using a single e-commerce dataset. This project demonstrates a wide range of data science and machine learning techniques applied to solve interconnected, real-world business problems—moving seamlessly from understanding historical customer behavior to predicting future actions.
 
-📊 Dataset
-The model was trained on the "Online Retail II UCI" dataset, which contains transactional data for a UK-based online retailer.
+---
 
-Dataset Link: https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
-💡 4 Business Problems Solved
-This single project tackles four key business challenges in a logical sequence:
+## 🚀 Project Overview
 
-Customer Segmentation: Used RFM Analysis and K-Means Clustering to group customers into distinct, actionable personas like "Champions," "At-Risk Customers," and "New Customers."
+Modern businesses thrive on understanding their customers. This end-to-end pipeline takes raw transactional data and transforms it into actionable business strategies by tackling four critical pillars of customer analytics in a logical, sequential workflow.
 
-Customer Churn Prediction: Built a Logistic Regression model to predict the probability of a customer churning (i.e., becoming inactive) based on their behavioral segment and RFM scores.
+Instead of fragmented analyses, this project unifies segmentation, churn, lifetime value, and product recommendations into a single cohesive ecosystem, complete with an **interactive dashboard** built directly inside a Jupyter Notebook.
 
-Customer Lifetime Value (CLV) Prediction: Developed a Random Forest Regressor to predict the future revenue a customer is likely to generate in the next 90 days.
+---
 
-Product Recommendation: Created a simple recommender system using Association Rule Mining (Apriori) to find "if you buy this, you'll also like that" product associations from recent transaction data.
+## 💡 4 Business Problems Solved
 
-🎛️ Interactive Dashboard
-An interactive, tabbed dashboard was built directly in the notebook using ipywidgets to demonstrate all four solutions in real-time, allowing for on-the-fly predictions and analysis.
+This project tackles four key business challenges in a logical sequence:
 
-💻 Technology Stack
-Python
-Data Manipulation: Pandas, NumPy
-Machine Learning: Scikit-learn, mlxtend
-Visualization: Matplotlib, Seaborn
-Interactive UI: ipywidgets
-Environment: Jupyter Notebook, Git
-⚙️ How to Run
-Clone this repository.
-Install the dependencies from the requirements.txt file.
-The main analysis, model training, and interactive UI are contained in the .ipynb notebook file.
-https://github.com/tejaswinimoguram1206
+1. **Customer Segmentation (Descriptive):** Implemented **RFM (Recency, Frequency, Monetary) Analysis** paired with **K-Means Clustering** to segment the customer base into distinct, actionable personas (e.g., *Champions*, *At-Risk Customers*, *New Customers*).
+2. **Customer Churn Prediction (Predictive):** Built a **Logistic Regression** classifier to predict the probability of a customer churning based on their behavioral shifts and RFM scores.
+3. **Customer Lifetime Value (CLV) Prediction (Predictive):** Developed a **Random Forest Regressor** to forecast the specific revenue a customer is likely to generate over the next 90 days.
+4. **Product Recommendation (Prescriptive):** Created a recommendation system using **Association Rule Mining (Apriori Algorithm)** to uncover strong product relationships (*"Frequently Bought Together"*) from historical transaction patterns.
+
+---
+
+## 🎛️ Interactive Dashboard
+
+To bring these models to life, an interactive, tabbed dashboard was built directly inside the Jupyter Notebook using **`ipywidgets`**. This UI allows users to:
+* Filter and explore different customer segments dynamically.
+* Test individual customer profiles to see real-time Churn risk and CLV forecasts.
+* Query specific products to instantly generate market-basket recommendation lists.
+
+---
+
+## 🛠️ Technology Stack
+
+* **Language:** Python
+* **Data Manipulation & Analysis:** `pandas`, `NumPy`
+* **Machine Learning & Stats:** `scikit-learn`, `mlxtend`
+* **Data Visualization:** `matplotlib`, `seaborn`
+* **Interactive UI:** `ipywidgets`
+* **Environment:** Jupyter Notebook, Git
+
+---
+
+## 📊 Dataset Information
+
+The models are trained and validated on the **Online Retail II UCI** dataset, which contains real historical transactions for a UK-based, non-store online retailer specializing in unique all-occasion gifts.
+
+* **Data Span:** Contains transactions occurring between 2009 and 2011.
+* **Source:** Available on Kaggle via the [Online Retail II UCI Dataset Link](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci).
+
+---
+
+## ⚙️ Installation & How to Run
+
+Follow these steps to set up the project locally and launch the interactive notebook.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/tejaswinimoguram1206/360-Degree-Customer-Intelligence.git](https://github.com/tejaswinimoguram1206/360-Degree-Customer-Intelligence.git)
+cd 360-Degree-Customer-Intelligence
