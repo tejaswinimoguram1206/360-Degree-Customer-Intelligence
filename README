@@ -35,9 +35,4 @@ Environment: Jupyter Notebook, Git
 Clone this repository.
 Install the dependencies from the requirements.txt file.
 The main analysis, model training, and interactive UI are contained in the .ipynb notebook file.
-Releases
-No releases published
-Packages
-No packages published
-Contributors
 https://github.com/tejaswinimoguram1206
